@@ -5,7 +5,10 @@ how to search?
 how will it start jobs?
 heasarc?
 
+* can use esap as external archive gui
+* can use VO tap apis
 
+### unorganized comments from Bjorn
 
 
 As discussed today, here are a few "data_source" links. That might be relevant.
