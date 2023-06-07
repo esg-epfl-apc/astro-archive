@@ -12,9 +12,16 @@ heasarc?
 
 see https://github.com/esg-epfl-apc/galaxy-pan as an example
 
+### VO case
+
+can try hess data first
+then, also try LS
+
 ### rucio plugin in galaxy
 
 auth for rucio? using single user
+
+useful for storing data from hpc
 
 ### unorganized comments from Bjorn
 
