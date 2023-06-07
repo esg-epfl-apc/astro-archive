@@ -7,6 +7,14 @@ heasarc?
 
 * can use esap as external archive gui
 * can use VO tap apis
+* galaxy object store?
+
+
+see https://github.com/esg-epfl-apc/galaxy-pan as an example
+
+### rucio plugin in galaxy
+
+auth for rucio? using single user
 
 ### unorganized comments from Bjorn
 
