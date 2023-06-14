@@ -12,6 +12,11 @@ heasarc?
 
 see https://github.com/esg-epfl-apc/galaxy-pan as an example
 
+## needs
+
+* search files and see them in galaxy ui
+* run pulsar jobs with 
+
 ### VO case
 
 can try hess data first
@@ -30,12 +35,18 @@ As discussed today, here are a few "data_source" links. That might be relevant.
 
 As recap, data can be imported in various ways into Galaxy.
 
-    Download via URL / Paste Content / Upload from computer
-    You can always create a tool that does in the background somekind of wget/curl to get the data
-    if you have a pure API endpoint this is probably your way to go.
-    If data is exposed with a standard protocoll, SFTP, S3, WebDAV ...
-    if your data store can be queried via something like pyfilesystem, Galaxy has a nice integration for that
-    Via a so called "data source"-tool a special Galaxy tool
+Download via URL / Paste Content / Upload from computer
+* You can always create a tool that does in the background somekind of wget/curl to get the data if you have a pure API endpoint this is probably your way to go.
+    * many sites block access
+    * we might have something like "upload tool" which is a differnt kind of tool. but UI is strickt and does not allow view view of
+* If data is exposed with a standard protocoll, SFTP, S3, WebDAV ... if your data store can be queried via something like pyfilesystem, Galaxy has a nice integration for that
+    * offers too hierarichal view
+* Via a so called "data source"-tool a special Galaxy tool
+* rucio-plugin-like way by tricking the galaxy to think a file is there
+* [shared data](https://github.com/usegalaxy-eu/shared-data) has "data libraries" but they are either local to this instance or with static index
+* we might need specific page with archives 
+
+pulsar needs to talk to a particular
 
 A data source tool can only be used if you have a website that is exposing the data somehow via a GUI.
 You need code at website where you want to get data from. So a collaboration is needed.
