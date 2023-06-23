@@ -212,3 +212,7 @@ Screenshot 2023-02-27 at 09-59-56 The Planemo toolkit for developing deploying a
 Everyone that deals with Galaxy tools, please read it. It contains a nice summary of what is possible and what we have automatised over the years.
 Nikolay Vazov
 Great, Thanks!
+
+
+https://galaxyproject.org/news/2021-07-04-nextcloud-support/
+https://github.com/usegalaxy-eu/infrastructure-playbook/blob/master/templates/galaxy/config/file_sources_conf.yml.j2#L7
