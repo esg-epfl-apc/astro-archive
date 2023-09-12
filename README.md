@@ -216,3 +216,9 @@ Great, Thanks!
 
 https://galaxyproject.org/news/2021-07-04-nextcloud-support/
 https://github.com/usegalaxy-eu/infrastructure-playbook/blob/master/templates/galaxy/config/file_sources_conf.yml.j2#L7
+
+## Deferred datasets
+
+can be used to refer to big data
+
+https://galaxyproject.org/news/2022-08-galaxy-release-22-05/
