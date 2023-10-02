@@ -22,6 +22,12 @@ see https://github.com/esg-epfl-apc/galaxy-pan as an example
 can try hess data first
 then, also try LS
 
+### providing storage/compute resource context to the workflow
+
+* with input paramters - but not directly passing credentials
+
+* with extra metadata defining env variables
+
 ### rucio plugin in galaxy
 
 auth for rucio? using single user
