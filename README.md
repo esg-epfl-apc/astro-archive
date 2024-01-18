@@ -1,3 +1,7 @@
+* climate biodiv team
+* oakridge
+* french https://help.galaxyproject.org/t/custom-local-instance-with-cluster-various-questions/11490
+
 many servers do not work?
 what interface?
 is it part of galaxy core?
